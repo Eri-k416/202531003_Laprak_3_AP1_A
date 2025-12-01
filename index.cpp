@@ -121,7 +121,11 @@ int main() {
                 break;
         };
 
+        if (userChoice == 'c') {
+            break;
+        }
+
     };
 
     return 0;
-}
+};
