@@ -54,7 +54,7 @@ void getValidMinutesInput(int& minutes) {
         cin.clear();
         cin.ignore(10000, '\n');
     };
-}
+};
 
 int main() {
     char userChoice;
@@ -120,12 +120,9 @@ int main() {
                 cin.ignore(10000, '\n');
                 break;
         };
-
         if (userChoice == 'c') {
             break;
-        }
-
+        };
     };
-
     return 0;
 };
